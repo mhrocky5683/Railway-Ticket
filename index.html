@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>eticket.railway.gov.bd/</title>
+
+        <!-- daisyUI section -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+
+    </head>
+
+    <body class="bg-slate-50  px-20 fonts m-0">
+        <section class="border-white">
+            <!-- Navbar section -->
+            <div class="navbar bg-base-100">
+                <div class="flex-1">
+                    <img src="image/bangladesh-railway.png" alt="">
+                    <a class="btn btn-ghost text-xl">Bangladesh Railway</a>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Verify Ticket</a></li>
+                        <li><a>Train Information</a></li>
+                        <li><a>Link</a></li>
+                        <li><a>Contact Us</a></li>
+                        <button class="btn btn-active btn-neutral">Login</button>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="flex bg-slate-200 font-medium ">
+            <img src="image/verify-nid-warning.png" alt="">
+            <p class="text-red-500 ng-tns-c35-6">০৩ এপ্রিল, ২০২৪ তারিখ হতে ঈদের পূর্বদিন পর্যন্ত আন্তঃনগর নীলসাগর ও
+                চিলাহাটি
+                এক্সপ্রেস ট্রেন ঢাকা রেলওয়ে স্টেশনের পরিবর্তে ঢাকা ক্যান্টনমেন্ট রেলওয়ে স্টেশন হতে চলাচল করবে। উক্ত
+                ট্রেন দুইটি বিমানবন্দর স্টেশনে যাত্রা বিরতি করবে না।</p>
+        </section>
+
+        <section class="">
+            <div class="hero min-h-screen bg-base-200">
+                <div class="hero-content flex-col lg:flex-row-reverse">
+                    <div class="text-center lg:text-left ">
+                        <img class="" src="image/2.jpg" alt="">
+                    </div>
+
+                    <form class="w-full lg:w-3/4 border border-2 p-5 " action="">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <div class="flex flex-col "><label for="">From</label>
+                                <input type="text" placeholder="from station" class="input input-bordered w-full mt-4"
+                                    enable />
+                            </div>
+                            <div class="flex flex-col"><label for="">To</label>
+                                <input type="text" placeholder="To station" class="input input-bordered w-full mt-4"
+                                    enable />
+                            </div>
+                            <div class="flex flex-col  grid-cols-1 lg:grid-cols-2 gap-2 ">
+
+                                <label for="">Date of Journey</label>
+                                <input type="date" placeholder="date of jurny" id=" date">
+                            </div>
+                            <div>
+                                <label for="price" class="block text-sm font-medium leading-6 text-gray-900">Choose
+                                </label>
+                                <div class="relative mt-2 rounded-md shadow-sm">
+                                    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+
+                                    </div>
+                                    <input type="text" name="price" id="price"
+                                        class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                        placeholder="class">
+                                    <div class="absolute inset-y-0 right-0 flex items-center">
+                                        <select id="currency" name="currency"
+                                            class="h-full rounded-md border-0 bg-transparent py-0 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm">
+                                            <option>AC</option>
+                                            <option>NON-AC</option>
+                                            <option>F-SEAT</option>
+                                            <option>SINIDHA</option>
+                                            <option>F-CHAIR</option>
+                                            <option>AC-CHAIR</option>
+                                            <option>NON-AC-CHAIR</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pt-6 ">
+                            <button class="w-full btn bg-orange-600 border-none bg-clr">Search Trains</button>
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+            </div>
+
+        </section>
+
+    </body>
+
+</html>
